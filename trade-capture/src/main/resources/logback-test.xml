@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration debug="false">
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+  </appender>
+
+<!--
+    Levels
+
+    TRACE, DEBUG, INFO, WARN, ERROR, ALL or OFF.
+    Note that the level of the root logger cannot be set to INHERITED or NULL.
+-->
+
+    <logger name="app.model" level="debug" />
+    <logger name="app.model.Conexion" level="debug" />
+    <logger name="app.model.Conexion2" level="debug" />
+    <logger name="app.model.Conexion3" level="debug" />
+    <logger name="app.model.main" level="debug" />
+
+
+  <root level="info">
+    <appender-ref ref="STDOUT" />
+  </root>
+
+</configuration>
