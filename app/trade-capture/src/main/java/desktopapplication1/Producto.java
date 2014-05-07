@@ -59,8 +59,8 @@ public class Producto implements Serializable {
     @Basic(optional = false)
     @Column(name = "tipoRegistro")
     private boolean tipoRegistro;
-    @Basic(optional = false)
-    @Column(name = "tipoProducto")
+    //@Basic(optional = false)
+    //@Column(name = "tipoProducto")
     private int tipoProducto;
     @Basic(optional = false)
     @Column(name = "contenido")

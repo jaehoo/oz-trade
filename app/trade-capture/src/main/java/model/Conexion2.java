@@ -2,7 +2,7 @@
  * Clase para el manejo de la conexion a la Base de Datos
  */
 
-package app.model;
+package model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

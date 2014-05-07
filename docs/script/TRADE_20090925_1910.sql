@@ -36,14 +36,14 @@ CREATE TABLE  `Categoria` (
 -- Dumping data for table `Categoria`
 --
 
-/*!40000 ALTER TABLE `Categoria` DISABLE KEYS */;
+
 LOCK TABLES `Categoria` WRITE;
 INSERT INTO `Categoria` VALUES  (1,'Quesos'),
  (2,'Carnes frias'),
  (3,'Cremería y Abarrotes'),
  (4,'Otros');
 UNLOCK TABLES;
-/*!40000 ALTER TABLE `Categoria` ENABLE KEYS */;
+
 
 Definition
 --
@@ -77,11 +77,11 @@ CREATE TABLE  `Grupo` (
 -- Dumping data for table `Grupo`
 --
 
-/*!40000 ALTER TABLE `Grupo` DISABLE KEYS */;
+
 LOCK TABLES `Grupo` WRITE;
 INSERT INTO `Grupo` VALUES  (0,'NA','N/A');
 UNLOCK TABLES;
-/*!40000 ALTER TABLE `Grupo` ENABLE KEYS */;
+
 
 
 
@@ -180,7 +180,7 @@ CREATE TABLE  `DetalleInventario` (
 -- Dumping data for table `UnidadMedida`
 --
 
-/*!40000 ALTER TABLE `UnidadMedida` DISABLE KEYS */;
+
 LOCK TABLES `UnidadMedida` WRITE;
 INSERT INTO `UnidadMedida` VALUES  (1,'gr','Gramos'),
  (2,'kg','Kilos'),
@@ -191,10 +191,10 @@ INSERT INTO `UnidadMedida` VALUES  (1,'gr','Gramos'),
  (7,'lb','Libras'),
  (8,'na','otros');
 UNLOCK TABLES;
-/*!40000 ALTER TABLE `UnidadMedida` ENABLE KEYS */;
 
 
-/*!40000 ALTER TABLE `Marca` DISABLE KEYS */;
+
+
 LOCK TABLES `Marca` WRITE;
 INSERT INTO `Marca` VALUES  (1,'Sin Marca'),
  (2,'Agrover'),
@@ -293,14 +293,14 @@ INSERT INTO `Marca` VALUES  (56,'Tuny'),
  (95,'Fresca'),
  (96,'Valle Frut');
 UNLOCK TABLES;
-/*!40000 ALTER TABLE `Marca` ENABLE KEYS */;
+
 
 
 --
 -- Dumping data for table `Producto`
 --
 
-/*!40000 ALTER TABLE `Producto` DISABLE KEYS */;
+
 LOCK TABLES `Producto` WRITE;
 INSERT INTO `Producto` VALUES  ('027000384954','Salsa Barbecue',16.00,1,3,0,612.00,1,32,NULL,NULL),
  ('028571008560','Duraznos en almibar',18.00,1,3,0,500.00,1,26,NULL,NULL),
@@ -558,7 +558,7 @@ INSERT INTO `Producto` VALUES  ('7502209170582','Tocino aumado',52.00,1,2,0,0.00
  ('758104100422','Agua',7.00,1,3,0,1.00,3,9,NULL,NULL),
  ('8850044011577','Piña',18.00,1,3,0,800.00,1,55,NULL,NULL);
 UNLOCK TABLES;
-/*!40000 ALTER TABLE `Producto` ENABLE KEYS */;
+
 
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

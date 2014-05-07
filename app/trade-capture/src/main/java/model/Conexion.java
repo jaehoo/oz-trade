@@ -2,7 +2,7 @@
  * Clase para el manejo de la conexion a la Base de Datos
  */
 
-package app.model;
+package model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -48,7 +48,7 @@ public class Conexion{
         try {
 
             if(conexion==null  || conexion.isClosed()){
-                conexion= DriverManager.getConnection("jdbc:mysql:///trade", "root", "root");
+                conexion= DriverManager.getConnection("jdbc:mysql:///trade", "trade", "trade");
                 logger.debug("[ Conexion abierta ]");
             }
 
@@ -175,7 +175,7 @@ public class Conexion{
         ResultSet rs = obj.consultar("SELECT * FROM Marca");
 
         while (rs.next()) {
-           // System.out.println("==" + rs.getString("descripcion"));
+            System.out.println("==" + rs.getString("descripcion"));
         }
         rs.close();
         obj.cerrarConexion();

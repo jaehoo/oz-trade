@@ -9,7 +9,7 @@
  * Created on 22/09/2009, 01:21:09 PM
  */
 
-package app.view;
+package view;
 
 /**
  *

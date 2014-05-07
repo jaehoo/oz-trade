@@ -33,7 +33,7 @@ public class Conexion {
 
           try {
       Class.forName("com.mysql.jdbc.Driver").newInstance();
-      conexion = DriverManager.getConnection("jdbc:mysql:///trade","root", "root");
+      conexion = DriverManager.getConnection("jdbc:mysql:///trade","trade", "trade");
 
       //if(!
               conexion.isClosed();

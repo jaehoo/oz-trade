@@ -2,10 +2,12 @@
  * Clase para el manejo de la conexion a la Base de Datos
  */
 
-package app.model;
+package model;
 
 
 import javax.sql.DataSource;
+
+import model.Conexiones;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -16,7 +18,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
  * @author Alberto Sanchez Gonzalez
  *
  */
-public class Conexion3 implements Conexiones{
+public class Conexion3 implements Conexiones {
 
     // sfl4j log
     private static Logger logger;

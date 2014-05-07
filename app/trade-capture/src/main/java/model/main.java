@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package app.model;
+package model;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
